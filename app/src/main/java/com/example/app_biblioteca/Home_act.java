@@ -21,9 +21,13 @@ public class Home_act extends AppCompatActivity {
     {
         ArrayList<String> libros = new ArrayList<String>();
 
+        //Segundo commit master
+
         libros.add("Revival");
         libros.add("Farenheith");
         libros.add("El Alquimista");
+        libros.add("El Poder");
+        libros.add("Despertar");
 
         Intent i = new Intent(this, Github_act.class);
         i.putExtra("ListaLibros", libros);

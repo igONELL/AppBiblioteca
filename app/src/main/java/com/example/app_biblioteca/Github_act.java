@@ -53,6 +53,14 @@ public class Github_act extends AppCompatActivity {
         {
             tv.setText("Has seleccionado El Alquimista y el Valor es: "+valor.getValorElalquimista());
         }
+        if(opcion.equals("El Poder"))
+        {
+            tv.setText("Has seleccionado El Poder y el Valor es: "+valor.getValorElPoder());
+        }
+        if(opcion.equals("Despertar"))
+        {
+            tv.setText("Has seleccionado El Alquimista y el Valor es: "+valor.getValorDespertar());
+        }
 
     }
 
